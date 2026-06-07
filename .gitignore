@@ -1,0 +1,67 @@
+# =========================
+# Maven / Build files
+# =========================
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Maven wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# =========================
+# IDE - IntelliJ IDEA
+# =========================
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# =========================
+# IDE - Eclipse / STS
+# =========================
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# =========================
+# IDE - NetBeans
+# =========================
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Spring Boot / Secrets (IMPORTANT)
+# =========================
+src/main/resources/application.yml
+src/main/resources/application-dev.yml
+src/main/resources/application-secret.yml
+
+# Environment variables file (if you use it later)
+.env
