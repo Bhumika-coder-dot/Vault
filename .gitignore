@@ -59,8 +59,6 @@ Thumbs.db
 # =========================
 # Spring Boot / Secrets (IMPORTANT)
 # =========================
-src/main/resources/application.yml
-src/main/resources/application-dev.yml
 src/main/resources/application-secret.yml
 
 # Environment variables file (if you use it later)
