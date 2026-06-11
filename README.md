@@ -4,6 +4,13 @@ Vault is a cloud-deployed Spring Boot application designed to securely manage AP
 
 ---
 
+### 📖 Interactive API Documentation
+
+* Swagger UI integration for testing APIs directly from the browser.
+* Easy endpoint exploration and validation.
+
+---
+
 ## 🚀 Key Features
 
 ### 🔐 Secure Credential Management
@@ -38,11 +45,6 @@ Vault is a cloud-deployed Spring Boot application designed to securely manage AP
 * Deployed on Render.
 * MongoDB Atlas cloud database integration.
 * Environment variable-based configuration management.
-
-### 📖 Interactive API Documentation
-
-* Swagger UI integration for testing APIs directly from the browser.
-* Easy endpoint exploration and validation.
 
 ---
 
